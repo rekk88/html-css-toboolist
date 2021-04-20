@@ -40,9 +40,16 @@ main{
     margin: 0 auto;
     margin-bottom: 45px;
 }
-main button{
+.div-button{
     padding: 8px 13px;
     border: 1px solid;
+    width: fit-content;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    vertical-align: bottom;
+    border: 1px solid;
+    color: white;
 }
 
 .blu-button{
@@ -135,15 +142,15 @@ ul.bordo{
 */
 
 .li-button{
-    vertical-align: text-bottom;
+    /* vertical-align: text-bottom; */
     border-radius: 12px;
     padding: 7px 14px;
     color: white;
 }
 
 li{
-    line-height: 50px;
-    padding: 10px 0px;
+    /*line-height: 50px;*/
+    padding: 20px 0px;
 }
 
 ul li{
@@ -153,9 +160,10 @@ ul li{
 div.blu-button{
     width: fit-content;
     display: inline-block;
-    padding: 8px 13px;
-    border: 1px solid;
-    cursor: pointer;
-    border-color: #47ADF1;
-    color: white;
+    /* padding: 8px 13px; */
+    /* border: 1px solid; */
+    /* cursor: pointer; */
+    /* border-color: #47ADF1; */
+    /* color: white; */
+    /* vertical-align: bottom; */
 }
