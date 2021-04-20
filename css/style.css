@@ -106,7 +106,7 @@ ul{
     display: inline-block;
     width: 35px;
     height: 35px;
-    padding-inline: 5px;
+    text-align: center;
     line-height: 35px;
 }
 .tick{
@@ -149,7 +149,7 @@ li{
 ul li{
     font-size: 22px;
 }
-
+/*div test*/
 div.blu-button{
     width: fit-content;
     display: inline-block;
@@ -157,4 +157,5 @@ div.blu-button{
     border: 1px solid;
     cursor: pointer;
     border-color: #47ADF1;
+    color: white;
 }
