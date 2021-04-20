@@ -16,7 +16,7 @@ header{
 
 #logo{
     padding: 10px;
-  
+
 }
 
 .logo-text{
@@ -52,6 +52,8 @@ main{
     color: white;
 }
 
+
+/* colori buttons */
 .blu-button{
     background-color: #47ADF1;
     border-color:#47ADF1;
@@ -88,24 +90,17 @@ main{
     padding-bottom: 10px;
 }
 
-
+/* riga separatoria */
 .main-row{
     border: 1px solid #F6F8F9;
 }
 
-ul{
-    font-size: 30px;
-}
-
+/*simbolo per le intestazione delle liste (new task, today, upcoming)*/
 .triangolo {
     list-style-type: "\25BC";
-} 
-
-
-#task{ 
-    font-weight: bold;
 }
 
+/*centratura e bordo per spunte ed x*/
 .entities{
     list-style-type:none;
     border: 2px solid;
@@ -116,30 +111,32 @@ ul{
     text-align: center;
     line-height: 35px;
 }
+
+/* spunta */
 .tick{
     color: green;
     border-color: green;
 }
+
+/* x */
 .x-mark{
-    
+
     color: red;
     border-color: red;
 }
+
+
 .li-text{
     color: black;
 }
 li::marker{
     display: none;
 }
+
+/* per eliminare gli elementi puntati dell'elenco di defualt */
 ul{
     list-style: none;
 }
-/*
-ul.bordo{
-    border: 1px solid black;
-    border-radius: 100%;
-}
-*/
 
 .li-button{
     /* vertical-align: text-bottom; */
@@ -156,14 +153,4 @@ li{
 ul li{
     font-size: 22px;
 }
-/*div test*/
-div.blu-button{
-    width: fit-content;
-    display: inline-block;
-    /* padding: 8px 13px; */
-    /* border: 1px solid; */
-    /* cursor: pointer; */
-    /* border-color: #47ADF1; */
-    /* color: white; */
-    /* vertical-align: bottom; */
-}
+
