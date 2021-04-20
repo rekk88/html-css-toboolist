@@ -82,8 +82,25 @@ ul{
 .tick{
     list-style-type:none;
     color: green;
-    border: 1px solid black;
-    border-radius: 100%;
+    border: 2px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding-inline: 5px;
+    line-height: 35px;
+}
+
+.x{
+    list-style-type:none;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding-inline: 5px;
+    line-height: 35px;
 }
 .li-text{
     color: black;
@@ -91,9 +108,22 @@ ul{
 li::marker{
     display: none;
 }
+ul{
+    list-style: none;
+}
 /*
 ul.bordo{
     border: 1px solid black;
     border-radius: 100%;
 }
 */
+
+.li-button{
+    vertical-align: text-bottom;
+    border-radius: 12px;
+    padding: 7px 14px;
+}
+
+li{
+    line-height: 50px;
+}
