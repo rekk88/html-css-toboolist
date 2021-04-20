@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .radius{
     border-radius: 8px;
@@ -37,7 +38,7 @@ main{
     width: 80%;
     background-color: white;
     margin: 0 auto;
-    
+    margin-bottom: 45px;
 }
 main button{
     padding: 8px 13px;
@@ -47,12 +48,31 @@ main button{
 .blu-button{
     background-color: #47ADF1;
     border-color:#47ADF1;
-    color: white;
 }
 .white-button{
     background-color: white;
     border-color: lightgrey;
     color: lightgrey;
+}
+
+.violet-button{
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+}
+
+.green-button{
+    background-color: lightgreen;
+    border-color: lightgreen;
+}
+
+.orange-button{
+    background-color: orange;
+    border-color: orange;
+}
+
+.pink-button{
+    background-color:palevioletred;
+    border-color: palevioletred;
 }
 
 .buttons-container{
@@ -79,10 +99,9 @@ ul{
     font-weight: bold;
 }
 
-.tick{
+.entities{
     list-style-type:none;
-    color: green;
-    border: 2px solid green;
+    border: 2px solid;
     border-radius: 50%;
     display: inline-block;
     width: 35px;
@@ -90,17 +109,14 @@ ul{
     padding-inline: 5px;
     line-height: 35px;
 }
-
-.x{
-    list-style-type:none;
+.tick{
+    color: green;
+    border-color: green;
+}
+.x-mark{
+    
     color: red;
-    border: 2px solid red;
-    border-radius: 50%;
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    padding-inline: 5px;
-    line-height: 35px;
+    border-color: red;
 }
 .li-text{
     color: black;
@@ -122,8 +138,10 @@ ul.bordo{
     vertical-align: text-bottom;
     border-radius: 12px;
     padding: 7px 14px;
+    color: white;
 }
 
 li{
     line-height: 50px;
+    padding: 10px 0px;
 }
