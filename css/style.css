@@ -65,3 +65,12 @@ main button{
 .main-row{
     border: 1px solid #F6F8F9;
 }
+
+ul{
+    font-size: 30px;
+}
+
+.triangolo {
+    list-style-type: "\25BC";
+    font-weight: bold;
+} 
