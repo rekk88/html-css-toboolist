@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    
+}
+header img{
+    height: 80px;
+
+}
+
+body{
+    background-color: #F6F8F9;
+}
