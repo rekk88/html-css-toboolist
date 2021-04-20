@@ -72,5 +72,8 @@ ul{
 
 .triangolo {
     list-style-type: "\25BC";
-    font-weight: bold;
 } 
+
+li span{ /* seleziono tutti gli span figli di li */
+    font-weight: bold;
+}
