@@ -145,3 +145,7 @@ li{
     line-height: 50px;
     padding: 10px 0px;
 }
+
+ul li{
+    font-size: 22px;
+}
