@@ -2,8 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
+.radius{
+    border-radius: 8px;
+}
 
 /* parte logo */
 header{
@@ -36,9 +37,11 @@ main{
     width: 80%;
     background-color: white;
     margin: 0 auto;
-    border-radius: 8px;
+    
 }
-
+main button{
+    padding: 2px 5px;
+}
 .main-row{
     border: 1px solid #F6F8F9;
 }
