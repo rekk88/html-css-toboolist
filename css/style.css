@@ -40,8 +40,28 @@ main{
     
 }
 main button{
-    padding: 2px 5px;
+    padding: 8px 13px;
+    border: 1px solid;
 }
+
+.blu-button{
+    background-color: #47ADF1;
+    border-color:#47ADF1;
+    color: white;
+}
+.white-button{
+    background-color: white;
+    border-color: lightgrey;
+    color: lightgrey;
+}
+
+.buttons-container{
+    padding-left: 23px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+
 .main-row{
     border: 1px solid #F6F8F9;
 }
