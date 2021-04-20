@@ -74,6 +74,26 @@ ul{
     list-style-type: "\25BC";
 } 
 
-li span{ /* seleziono tutti gli span figli di li */
+
+#task{ 
     font-weight: bold;
 }
+
+.tick{
+    list-style-type:none;
+    color: green;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.li-text{
+    color: black;
+}
+li::marker{
+    display: none;
+}
+/*
+ul.bordo{
+    border: 1px solid black;
+    border-radius: 100%;
+}
+*/
