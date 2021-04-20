@@ -2,9 +2,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+/* parte logo */
 header{
     background-color: white;
     height: 80px;
+    margin-bottom: 40px;
 }
 
 #logo{
@@ -21,10 +26,19 @@ header{
 }
 
 
-
-
-
-
 body{
     background-color: #F6F8F9;
+}
+
+/* main */
+
+main{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.main-row{
+    border: 1px solid #F6F8F9;
 }
