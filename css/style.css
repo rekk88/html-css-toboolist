@@ -4,12 +4,26 @@
 }
 header{
     background-color: white;
-    
-}
-header img{
     height: 80px;
-
 }
+
+#logo{
+    padding: 10px;
+  
+}
+
+.logo-text{
+    font-size: 40px;
+    height: 80px;
+    line-height: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
+
+
 
 body{
     background-color: #F6F8F9;
